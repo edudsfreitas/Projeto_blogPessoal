@@ -1,0 +1,10 @@
+.parallax {
+    background-image: url('https://www.mo.agency/hubfs/So%20you%20want%20to%20be%20a%20web%20developer.png');
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
