@@ -10,15 +10,15 @@
                 <div class="form-group">
                     <label for="exampleImputEmail1">Endereço de email</label>
                     <input type="email" class="form-control" id="exampleImputEmail1"
-                    aria-describedby="emailHelp" placeholder="Seu email">
+                    aria-describedby="emailHelp" placeholder="Seu email" [(ngModel)]='userLogin.usuario'>
                     <small id="emailHelp" class="form-text text-muted">Nunca iremos compartilhar seu email com ninguém</small>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Senha</label>
-                    <input type="password" class="form-control" id="exampleInputPawssword1" placeholder="Senha">
+                    <input type="password" class="form-control" id="exampleInputPawssword1" placeholder="Senha" [(ngModel)]='userLogin.senha'>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn btn-outline-success w-25">Entrar</button>
+                    <button type="submit" class="btn btn-outline-success w-25" (click)='login()'>Entrar</button>
                 </div>
                 
             </div>
