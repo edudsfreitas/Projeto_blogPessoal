@@ -19,6 +19,7 @@ listaTemas: Tema[]
   ) { }
 
   ngOnInit() {
+    window.scroll (0, 0)
     this.findAlltemas()
   }
 
